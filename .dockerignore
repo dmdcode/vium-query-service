@@ -1,5 +1,12 @@
-*
-!target/*-runner
-!target/*-runner.jar
-!target/lib/*
-!target/quarkus-app/*
+# permitir o que o build precisa
+!pom.xml
+!src/**
+!Dockerfile
+!.dockerignore
+# (se usar wrapper)
+!mvnw
+!.mvn/wrapper/**
+
+# ignorar artefatos gerados
+target/
+.git/
