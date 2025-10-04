@@ -1,4 +1,6 @@
-#Maven
+##############################################
+# Java / Maven
+##############################################
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -6,14 +8,18 @@ pom.xml.versionsBackup
 release.properties
 .flattened-pom.xml
 
+##############################################
+# IDEs e Ferramentas
+##############################################
+
 # Eclipse
 .project
 .classpath
 .settings/
 bin/
 
-# IntelliJ
-.idea
+# IntelliJ IDEA
+.idea/
 *.ipr
 *.iml
 *.iws
@@ -22,24 +28,38 @@ bin/
 nb-configuration.xml
 
 # Visual Studio Code
-.vscode
+.vscode/
 .factorypath
 
-# OSX
+##############################################
+# SO / Editor
+##############################################
+
+# macOS
 .DS_Store
 
 # Vim
 *.swp
 *.swo
 
-# patch
+##############################################
+# Patches e backups
+##############################################
 *.orig
 *.rej
 
-# Local environment
+##############################################
+# Arquivos locais e sensíveis
+##############################################
 .env
+.env.*
+*.pem
+*.key
+*.crt
 
-# Plugin directory
-/.quarkus/cli/plugins/
-# TLS Certificates
+##############################################
+# Quarkus / Plugins / Certificados
+##############################################
+.quarkus/
+.quarkus/cli/plugins/
 .certs/
